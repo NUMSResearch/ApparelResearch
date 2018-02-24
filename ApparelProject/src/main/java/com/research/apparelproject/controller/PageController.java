@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Configuration
 @EnableAutoConfiguration
 @Controller
-@RequestMapping("/map")
+@RequestMapping("/user_registration")
 public class PageController {
 	
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String Page() {
-		return "map";
+		return "user_registration";
 	}
 }
