@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- View TemplateResolver -->
+<bean id="templateResolver" class="org.thymeleaf.templateresolver.ServletContextTemplateResolver">
+    <property name="templateMode" value="LEGACYHTML5"/>
+    <property name="cacheable" value="false"/>
+</bean>
